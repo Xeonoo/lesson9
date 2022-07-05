@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 
-struct TaxCalculator {
+/*struct TaxCalculator {
    
    var tax = 0.15
    
@@ -32,6 +32,7 @@ struct BillSplitter {
 
 let split = BillSplitter()
 print(split.splitBy(subtotal: 120, numPeople: 5))
+*/
 
 struct lesson9App: App {
     var body: some Scene {

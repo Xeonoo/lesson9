@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+//        Text("Hello, world!")
+//            .padding()
+        Button("Click") {
+            print("Yeeeey")
+        }
+            Button {
+                print("no spk")
+            } label: {
+                HStack {
+                Image(systemName: "play.fill")
+                Text("Pencil")
+                }
+            }
     }
 }
 
